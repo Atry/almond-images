@@ -21,5 +21,5 @@ RUN curl -L -o coursier https://git.io/vgvpD && \
       -i user -I user:sh.almond:scala-kernel-api_$SCALA_VERSION:$ALMOND_VERSION \
       sh.almond:scala-kernel_$SCALA_VERSION:$ALMOND_VERSION \
       -o almond && \
-    ./almond --install &&
+    ./almond --install && \
     rm coursier almond
